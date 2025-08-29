@@ -38,7 +38,7 @@ jobs:
           username: ${{ secrets.EC2_USER }}
           key: ${{ secrets.EC2_PRIVATE_KEY }}
           source: empty.jar
-          target: /home/ubuntu/empty/tobe
+          target: /home/ubuntu/empty-project/tobe
 
       - name: EC2 접속
         uses: appleboy/ssh-action@v1.0.3
